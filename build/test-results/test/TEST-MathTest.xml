@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MathTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-22T14:40:59" hostname="w204-6w-v4.eduroam.dynamic.rbg.tum.de" time="0.01">
+  <properties/>
+  <testcase name="TestAdd()" classname="MathTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

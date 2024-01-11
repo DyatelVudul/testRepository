@@ -3,6 +3,7 @@ public class VectorOperations {
         if(vec1.length != vec2.length){
             throw new IllegalArgumentException("Size of vectors is not equal");
         }
+        
 
         float res = 0.0F;
 
@@ -10,5 +11,15 @@ public class VectorOperations {
             res += vec1[i] * vec2[i];
 
         return res;
+    }
+
+    static float[] multiplyWithAScalar(float [] vec, float scalar) throws IllegalArgumentException{
+        if(vec == null)
+            throw new IllegalArgumentException("Vector is null");
+
+        return null; 
+    }
+    static int meaningOfLife(){
+        return 42;
     }
 }

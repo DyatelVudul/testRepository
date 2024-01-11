@@ -8,4 +8,9 @@ public class MathTest {
     public void TestAdd(){
         assertEquals(2, Math.add(1,1));
     }
+
+    @Test
+    public void testMeaningOfLife(){
+        assertEquals(VectorOperations.meaningOfLife(), 42);
+    }
 }
